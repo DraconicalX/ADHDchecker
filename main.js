@@ -1,10 +1,11 @@
+var status
 function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
   
   cnv.parent(document.querySelector('main'));
   
   background(220);
-  var status = 0;
+  status = 0;
 }
 function draw(){
   text("Enter website password:",width/2,height/2+height/16)
