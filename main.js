@@ -13,7 +13,9 @@ function draw(){
   if(lock){
     let answer = prompt("3:3:40")
     if(answer == "Why, you speak like an ancient and most quiet watchman, for I cannot see how sleeping should offend; only have a care that your bills be not stolen. Well, you are to call at all the alehouses and bid those that are drunk get them to bed."){
-  lock = false
+      lock = false
     }
+  }else{
+    
   }
 }
