@@ -1,3 +1,3 @@
 function draw(){
-  rect(0,0,50,50)
+  text("Test!",width/2,height/2)
 }
