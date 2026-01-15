@@ -9,7 +9,7 @@ function setup(){
 }
 function draw(){
   text("Enter website password:",width/2,height/2+height/16);
-  if(keyIsDown(LEFT_ARROW)&&status = 0){
+  if(keyIsDown(LEFT_ARROW)&&status == 0){
     status++;
   }else if(keyIsDown(UP_ARROW)&&status == 1){
     status++;
