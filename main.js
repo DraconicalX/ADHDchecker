@@ -9,33 +9,33 @@ function setup(){
 }
 function draw(){
   text("Enter website password:",width/2,height/2+height/16)
-  if(keyIsDown(LEFT_ARROW)&&status = 0;){
+  if(keyIsDown(LEFT_ARROW)&&status = 0){
     status++;
-  }else if(keyIsDown(UP_ARROW)&&status = 1;){
+  }else if(keyIsDown(UP_ARROW)&&status = 1){
     status++;
-  }else if(keyIsDown(RIGHT_ARROW)&&status = 2;){
+  }else if(keyIsDown(RIGHT_ARROW)&&status = 2){
     status++;
-  }else if(keyIsDown(DOWN_ARROW)&&status = 3;){
+  }else if(keyIsDown(DOWN_ARROW)&&status = 3){
     status++;
-  }else if(keyIsDown(RIGHT_ARROW)&&status = 4;){
+  }else if(keyIsDown(RIGHT_ARROW)&&status = 4){
     status++;
-  }else if(keyIsDown(DOWN_ARROW)&&status = 5;){
+  }else if(keyIsDown(DOWN_ARROW)&&status = 5){
     status++;
-  }else if(keyIsDown(RIGHT_ARROW)&&status = 6;){
+  }else if(keyIsDown(RIGHT_ARROW)&&status = 6){
     status++;
-  }if(keyIsDown(LEFT_ARROW)&&status = 7;){
+  }if(keyIsDown(LEFT_ARROW)&&status = 7){
     status++;
-  }else if(keyIsDown(UP_ARROW)&&status = 8;){
+  }else if(keyIsDown(UP_ARROW)&&status = 8){
     status++;
-  }else if(keyIsDown(RIGHT_ARROW)&&status = 9;){
+  }else if(keyIsDown(RIGHT_ARROW)&&status = 9){
     status++;
-  }else if(keyIsDown(DOWN_ARROW)&&status = 10;){
+  }else if(keyIsDown(DOWN_ARROW)&&status = 10){
     status++;
-  }else if(keyIsDown(RIGHT_ARROW)&&status = 11;){
+  }else if(keyIsDown(RIGHT_ARROW)&&status = 11){
     status++;
-  }else if(keyIsDown(DOWN_ARROW)&&status = 12;){
+  }else if(keyIsDown(DOWN_ARROW)&&status = 12){
     status++;
-  }else if(keyIsDown(RIGHT_ARROW)&&status = 13;){
+  }else if(keyIsDown(RIGHT_ARROW)&&status = 13){
     status++;
   }
 }
