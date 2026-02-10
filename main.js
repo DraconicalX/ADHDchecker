@@ -22,7 +22,7 @@ function draw(){
     textFont(deltaruneFont);
     textSize(32);
     textAlign(CENTER, CENTER);
-    textColor
+    fill('white')
     text("Tester tester Tester! ABCDEFG",200,200)
   }
 }
