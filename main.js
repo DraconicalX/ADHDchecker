@@ -19,6 +19,6 @@ function draw(){
     textFont('DeltaruneFont');
     textSize(32);
     textAlign(CENTER, CENTER);
-    text("Tester tester Tester! ABCDEFG")
+    text("Tester tester Tester! ABCDEFG",200,200)
   }
 }
