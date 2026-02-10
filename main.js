@@ -16,6 +16,9 @@ function draw(){
       lock = false
     }
   }else{
-    
+    textFont('DeltaruneFont');
+    textSize(32);
+    textAlign(CENTER, CENTER);
+    text("Tester tester Tester! ABCDEFG")
   }
 }
