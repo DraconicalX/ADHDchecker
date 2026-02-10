@@ -26,7 +26,7 @@ function draw(){
     textAlign(CENTER, CENTER);
     fill('white')
     text("Tester tester Tester! ABCDEFG",200,200)
-    image(button1,0,15*height/16,width/16,height/16)
-    image(button2,width/16,15*height/16,width/16,height/16)
+    image(button1,0,9*height/10,width/10,height/10)
+    image(button2,width/10,9*height/10,width/10,height/10)
   }
 }
