@@ -20,7 +20,7 @@ function draw(){
     }
   }else{
     textFont(deltaruneFont);
-    textSize(32);
+    textSize(16);
     textAlign(CENTER, CENTER);
     fill('white')
     text("Tester tester Tester! ABCDEFG",200,200)
