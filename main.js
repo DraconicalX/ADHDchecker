@@ -1,7 +1,7 @@
 var status
 var lock
 function preload(){
-  deltaruneFont = loadFont('undertale-deltarune-text-font-extended.woff2')
+  deltaruneFont = loadFont('undertale-deltarune-text-font-extended.otf')
 }
 function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
