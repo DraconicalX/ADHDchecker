@@ -2,6 +2,8 @@ var status
 var lock
 function preload(){
   deltaruneFont = loadFont('undertale-deltarune-text-font-extended.ttf')
+  button1 = loadImage("B1.png")
+  button2 = loadImage("B2.png")
 }
 function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
@@ -24,5 +26,7 @@ function draw(){
     textAlign(CENTER, CENTER);
     fill('white')
     text("Tester tester Tester! ABCDEFG",200,200)
+    image(button1,50,50,0,350)
+    image(button2,50,50,75,350)
   }
 }
