@@ -7,7 +7,8 @@ canvas {
 }
 @font-face {
   font-family: 'DeltaruneFont';
-  src: url('fonts/myfont.otf') format('otf'),
+  src: url('undertale-deltarune-text-font-extended.otf
+') format('otf'),
   font-weight: normal;
   font-style: normal;
   font-display: swap;
