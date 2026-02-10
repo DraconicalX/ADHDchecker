@@ -1,5 +1,8 @@
 var status
 var lock
+function preload(){
+  deltaruneFont = loadFont('undertale-deltarune-text-font-extended.otf')
+}
 function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
   
@@ -16,7 +19,7 @@ function draw(){
       lock = false
     }
   }else{
-    textFont('DeltaruneFont');
+    textFont(deltaruneFont);
     textSize(32);
     textAlign(CENTER, CENTER);
     text("Tester tester Tester! ABCDEFG",200,200)
