@@ -35,7 +35,7 @@ function draw(){
     text("Tester tester Tester! ABCDEFG",200,200)
     image(button1,0,9*height/10,width/10,height/10)
     image(button2,width/10,9*height/10,width/10,height/10)
-    for(let i = 1; i<names.length; i++){
+    for(let i = 0; i<names.length; i++){
       image(reminderIcon,0,i*100,width,100)
     }
   }
