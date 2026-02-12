@@ -60,7 +60,7 @@ function mouseClicked(){
     }
     for(let i = 0; i<names.length; i++){
       if(mouseX<width/36+width/6&&mouseY<width/6+i*width/3+width/6-width/36&&mouseY>i*width/3+width/6-width/36){
-        names[i]=[];
+        names.splice(i,1);
       }
     }
   }
