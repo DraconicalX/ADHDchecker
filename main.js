@@ -38,11 +38,11 @@ function draw(){
     for(let i = 0; i<names.length; i++){
       image(reminderIcon,0,i*width/3,width,width/3)
       text(names[i],width/2,width/12+i*width/3)
-      if(timeMinutes>=10){
-        text(timeHours+":"+timeMinutes,width/2,width/12+i*width/3+width/12)
+      if(timeMinutes[i]>=10){
+        text(timeHours[i]+":"+timeMinutes[i],width/2,width/12+i*width/3+width/12)
       }else
       {
-        text(timeHours+":0"+timeMinutes,width/2,width/12+i*width/3+width/12)
+        text(timeHours[i]+":0"+timeMinutes[i],width/2,width/12+i*width/3+width/12)
       }
     }
   }
