@@ -1,9 +1,16 @@
 var status
 var lock
+var names
+var timeHours
+var timeMinutes
 function preload(){
   deltaruneFont = loadFont('undertale-deltarune-text-font-extended.ttf')
   button1 = loadImage("B1.png")
   button2 = loadImage("B2.png")
+  reminderIcon = loadImage("Check.png")
+  timeHours = []
+  timeMinutes = []
+  names = []
 }
 function setup(){
   let cnv = createCanvas(windowWidth, windowHeight);
@@ -28,5 +35,19 @@ function draw(){
     text("Tester tester Tester! ABCDEFG",200,200)
     image(button1,0,9*height/10,width/10,height/10)
     image(button2,width/10,9*height/10,width/10,height/10)
+    for(let i = 1; i<names.length; i++){
+      image(reminderIcon,0,i*100,width,100)
+    }
+  }
+}
+function mouseClicked(){
+  if(!lock){
+    if(mouseX<width/10&&mouseY>9*height/10){
+      push(prompt("Name of reminder:"))
+      push(prompt("Hour to remind:"))
+      push(prompt("Minute to remind:"))
+    }else if(mouseX<width/10&&mouseY>9*height/10){
+      
+    }
   }
 }
