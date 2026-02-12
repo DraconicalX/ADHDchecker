@@ -37,7 +37,7 @@ function draw(){
     image(button1,0,9*height/10,width/10,height/10)
     image(button2,width/10,9*height/10,width/10,height/10)
     for(let i = 0; i<names.length; i++){
-      image(reminderIcon,0,i*100,width,100)
+      image(reminderIcon,0,i*width/3,width,width/3)
     }
   }
 }
