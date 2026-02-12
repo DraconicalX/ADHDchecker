@@ -58,5 +58,10 @@ function mouseClicked(){
     }else if(mouseX<width/10&&mouseY>9*height/10){
       
     }
+    for(let i = 0; i<names.length; i++){
+      if(mouseX<width/36+width/6&&mouseY<width/6+i*width/3+width/6-width/36&&mouseY>i*width/3+width/6-width/36){
+        names[i]=[]
+      }
+    }
   }
 }
