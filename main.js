@@ -33,11 +33,11 @@ function draw(){
     textSize(16);
     textAlign(CENTER, CENTER);
     fill('white')
-    text("Tester tester Tester! ABCDEFG",200,200)
     image(button1,0,9*height/10,width/10,height/10)
     image(button2,width/10,9*height/10,width/10,height/10)
     for(let i = 0; i<names.length; i++){
       image(reminderIcon,0,i*width/3,width,width/3)
+      text(names[i],width/2,width/6+i*width/3)
     }
   }
 }
