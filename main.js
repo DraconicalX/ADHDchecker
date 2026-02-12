@@ -44,9 +44,9 @@ function draw(){
 function mouseClicked(){
   if(!lock){
     if(mouseX<width/10&&mouseY>9*height/10){
-      push(prompt("Name of reminder:"))
-      push(prompt("Hour to remind:"))
-      push(prompt("Minute to remind:"))
+      names.push(prompt("Name of reminder:"))
+      timeHours.push(prompt("Hour to remind:"))
+      timeMinutes.push(prompt("Minute to remind:"))
     }else if(mouseX<width/10&&mouseY>9*height/10){
       
     }
