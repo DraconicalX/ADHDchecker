@@ -14,7 +14,7 @@ function preload(){
   names = []
 }
 function setup(){
-  let cnv = createCanvas(windowWidth, windowHeight);
+  let cnv = createCanvas(windowWidth/2, windowHeight);
   
   cnv.parent(document.querySelector('main'));
   
@@ -37,7 +37,13 @@ function draw(){
     image(button2,width/10,9*height/10,width/10,height/10)
     for(let i = 0; i<names.length; i++){
       image(reminderIcon,0,i*width/3,width,width/3)
-      text(names[i],width/2,width/6+i*width/3)
+      text(names[i],width/2,width/12+i*width/3)
+      if(timeMinutes>=10){
+        text(timeHours+":"+timeMinutes,width/2,width/12+i*width/3+i*width/6)
+      }else
+      {
+        text(timeHours+":0"+timeMinutes,width/2,width/12+i*width/3+i*width/6)
+      }
     }
   }
 }
