@@ -3,6 +3,7 @@ var lock
 var names
 var timeHours
 var timeMinutes
+var reminderIcon
 function preload(){
   deltaruneFont = loadFont('undertale-deltarune-text-font-extended.ttf')
   button1 = loadImage("B1.png")
