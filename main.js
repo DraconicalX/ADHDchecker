@@ -8,6 +8,7 @@ function preload(){
   deltaruneFont = loadFont('undertale-deltarune-text-font-extended.ttf')
   button1 = loadImage("B1.png")
   button2 = loadImage("B2.png")
+  trash = loadImage("B3.png")
   reminderIcon = loadImage("Check.png")
   timeHours = []
   timeMinutes = []
@@ -37,6 +38,7 @@ function draw(){
     image(button2,width/10,9*height/10,width/10,height/10)
     for(let i = 0; i<names.length; i++){
       image(reminderIcon,0,i*width/3,width,width/3)
+      image(trash,0,i*width/3+width/6,width/6,width/6)
       text(names[i],width/2,width/12+i*width/3)
       if(timeMinutes[i]>=10){
         text(timeHours[i]+":"+timeMinutes[i],width/2,width/12+i*width/3+width/12)
