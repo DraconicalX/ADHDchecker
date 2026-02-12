@@ -39,10 +39,10 @@ function draw(){
       image(reminderIcon,0,i*width/3,width,width/3)
       text(names[i],width/2,width/12+i*width/3)
       if(timeMinutes>=10){
-        text(timeHours+":"+timeMinutes,width/2,width/12+i*width/3+i*width/6)
+        text(timeHours+":"+timeMinutes,width/2,width/12+i*width/3+width/6)
       }else
       {
-        text(timeHours+":0"+timeMinutes,width/2,width/12+i*width/3+i*width/6)
+        text(timeHours+":0"+timeMinutes,width/2,width/12+i*width/3+width/6)
       }
     }
   }
